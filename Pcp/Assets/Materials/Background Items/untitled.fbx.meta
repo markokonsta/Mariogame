@@ -1,0 +1,3175 @@
+fileFormatVersion: 2
+guid: 33a8d55828cb34b10b0bd7faa158eb2c
+timeCreated: 1461455010
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Bone
+    100006: Bone.001
+    100008: Bone.001_end
+    100010: Bone.002
+    100012: Bone.002_end
+    100014: Bone.003
+    100016: Bone.003_end
+    100018: Bone.004
+    100020: Bone.005
+    100022: Bone.005_end
+    100024: Bone.006
+    100026: Bone.007
+    100028: Bone.007_end
+    100030: Camera
+    100032: Head
+    100034: Lamp
+    100036: Left foot
+    100038: Right foot
+    100040: //RootNode
+    400000: Armature
+    400002: Body
+    400004: Bone
+    400006: Bone.001
+    400008: Bone.001_end
+    400010: Bone.002
+    400012: Bone.002_end
+    400014: Bone.003
+    400016: Bone.003_end
+    400018: Bone.004
+    400020: Bone.005
+    400022: Bone.005_end
+    400024: Bone.006
+    400026: Bone.007
+    400028: Bone.007_end
+    400030: Camera
+    400032: Head
+    400034: Lamp
+    400036: Left foot
+    400038: Right foot
+    400040: //RootNode
+    4300000: Head
+    4300002: Left foot
+    4300004: Right foot
+    4300006: Body
+    7400000: goomba walk
+    7400002: Armature|BodyAction
+    7400004: Armature|CameraAction
+    7400006: Armature|HeadAction
+    7400008: Armature|LampAction
+    7400010: Armature|Left footAction
+    7400012: Armature|Right footAction
+    7400014: Head|BodyAction
+    7400016: Head|CameraAction
+    7400018: Head|HeadAction
+    7400020: Head|LampAction
+    7400022: Head|Left footAction
+    7400024: Head|Right footAction
+    7400026: Left foot|BodyAction
+    7400028: Left foot|CameraAction
+    7400030: Left foot|HeadAction
+    7400032: Left foot|LampAction
+    7400034: Left foot|Left footAction
+    7400036: Left foot|Right footAction
+    7400038: Right foot|BodyAction
+    7400040: Right foot|CameraAction
+    7400042: Right foot|HeadAction
+    7400044: Right foot|LampAction
+    7400046: Right foot|Left footAction
+    7400048: Right foot|Right footAction
+    7400050: Body|BodyAction
+    7400052: Body|CameraAction
+    7400054: Body|HeadAction
+    7400056: Body|LampAction
+    7400058: Body|Left footAction
+    7400060: Body|Right footAction
+    7400062: Lamp|BodyAction
+    7400064: Lamp|CameraAction
+    7400066: Lamp|HeadAction
+    7400068: Lamp|LampAction
+    7400070: Lamp|Left footAction
+    7400072: Lamp|Right footAction
+    7400074: Camera|BodyAction
+    7400076: Camera|CameraAction
+    7400078: Camera|HeadAction
+    7400080: Camera|LampAction
+    7400082: Camera|Left footAction
+    7400084: Camera|Right footAction
+    9500000: //RootNode
+    13700000: Body
+    13700002: Head
+    13700004: Left foot
+    13700006: Right foot
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: goomba walk
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|BodyAction
+      takeName: Armature|BodyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CameraAction
+      takeName: Armature|CameraAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|HeadAction
+      takeName: Armature|HeadAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|LampAction
+      takeName: Armature|LampAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Left footAction
+      takeName: Armature|Left footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Right footAction
+      takeName: Armature|Right footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Head|BodyAction
+      takeName: Head|BodyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Head|CameraAction
+      takeName: Head|CameraAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Head|HeadAction
+      takeName: Head|HeadAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Head|LampAction
+      takeName: Head|LampAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Head|Left footAction
+      takeName: Head|Left footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Head|Right footAction
+      takeName: Head|Right footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left foot|BodyAction
+      takeName: Left foot|BodyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left foot|CameraAction
+      takeName: Left foot|CameraAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left foot|HeadAction
+      takeName: Left foot|HeadAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left foot|LampAction
+      takeName: Left foot|LampAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left foot|Left footAction
+      takeName: Left foot|Left footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left foot|Right footAction
+      takeName: Left foot|Right footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right foot|BodyAction
+      takeName: Right foot|BodyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right foot|CameraAction
+      takeName: Right foot|CameraAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right foot|HeadAction
+      takeName: Right foot|HeadAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right foot|LampAction
+      takeName: Right foot|LampAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right foot|Left footAction
+      takeName: Right foot|Left footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right foot|Right footAction
+      takeName: Right foot|Right footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|BodyAction
+      takeName: Body|BodyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|CameraAction
+      takeName: Body|CameraAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|HeadAction
+      takeName: Body|HeadAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|LampAction
+      takeName: Body|LampAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|Left footAction
+      takeName: Body|Left footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|Right footAction
+      takeName: Body|Right footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lamp|BodyAction
+      takeName: Lamp|BodyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lamp|CameraAction
+      takeName: Lamp|CameraAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lamp|HeadAction
+      takeName: Lamp|HeadAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lamp|LampAction
+      takeName: Lamp|LampAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lamp|Left footAction
+      takeName: Lamp|Left footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lamp|Right footAction
+      takeName: Lamp|Right footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Camera|BodyAction
+      takeName: Camera|BodyAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Camera|CameraAction
+      takeName: Camera|CameraAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Camera|HeadAction
+      takeName: Camera|HeadAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Camera|LampAction
+      takeName: Camera|LampAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Camera|Left footAction
+      takeName: Camera|Left footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Camera|Right footAction
+      takeName: Camera|Right footAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.004
+        weight: 1
+      - path: Armature/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.006
+        weight: 1
+      - path: Armature/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Left foot
+        weight: 1
+      - path: Right foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="ICS4U1 - PCP.CSharp.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CrossAnimate.js">
+    <Files>
+      <File FileName="Assets\Scripts\GunFire_Future.js" Line="2" Column="2" />
+      <File FileName="Assets\Scripts\FutureGunDamage.js" Line="12" Column="82" />
+      <File FileName="Assets\Scripts\EnemyScript.js" Line="9" Column="12" />
+      <File FileName="Assets\Scripts\CrossAnimate.js" Line="17" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
