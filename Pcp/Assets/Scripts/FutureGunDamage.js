@@ -1,6 +1,6 @@
 ﻿var DamageAmount : int = 5;
 var TargetDistance : float;
-var AllowedRange : float = 15;
+var AllowedRange : float = 100;
 
 function Update () {
 	if(Input.GetButtonDown("Fire1")) {
