@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Main_Menu Scripts\Menu_Script.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NaturalTilingTextures\External\ShaderForge_NTT_Triplanar.shader" />
