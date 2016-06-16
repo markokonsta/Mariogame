@@ -356,6 +356,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &35217425
 MonoBehaviour:
@@ -703,6 +705,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &53650508
 MonoBehaviour:
@@ -1041,6 +1045,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &63596023
 MonoBehaviour:
@@ -1154,6 +1160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &69703244
 MonoBehaviour:
@@ -1544,6 +1552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &109209132
 MonoBehaviour:
@@ -2355,6 +2365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &184810243
 MonoBehaviour:
@@ -2964,6 +2976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &222367044
 MonoBehaviour:
@@ -3164,6 +3178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &228279551
 MonoBehaviour:
@@ -3390,6 +3406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &237868673
 MonoBehaviour:
@@ -3957,6 +3975,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &264204956
 MonoBehaviour:
@@ -4690,6 +4710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &329905739
 MonoBehaviour:
@@ -5582,6 +5604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &390478327
 MonoBehaviour:
@@ -6465,6 +6489,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &435942863
 MonoBehaviour:
@@ -6906,6 +6932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &484195509
 MonoBehaviour:
@@ -7094,6 +7122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &495471748
 MonoBehaviour:
@@ -7569,6 +7599,20 @@ MeshFilter:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_PrefabInternal: {fileID: 1451966402}
+--- !u!114 &516837474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 516837473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30fc8d77312847fb80348f41a400f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
+  isGameOver: 0
 --- !u!4 &516837478 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -7584,6 +7628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!1 &519161549
 GameObject:
@@ -7733,6 +7779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &521068939
 MonoBehaviour:
@@ -8400,7 +8448,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!23 &595237953
 MeshRenderer:
@@ -8439,6 +8487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &595237955
 MonoBehaviour:
@@ -9498,6 +9548,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &686221650
 MonoBehaviour:
@@ -10174,6 +10226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &719872528
 MonoBehaviour:
@@ -11114,6 +11168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &803034341
 MonoBehaviour:
@@ -12387,7 +12443,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!23 &947974979
 MeshRenderer:
@@ -12426,6 +12482,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 30
 --- !u!114 &947974981
 MonoBehaviour:
@@ -12489,6 +12547,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &952036061
 MonoBehaviour:
@@ -12602,6 +12662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &954338763
 MonoBehaviour:
@@ -14072,6 +14134,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1063241597
 MonoBehaviour:
@@ -14448,7 +14512,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!23 &1080965464
 MeshRenderer:
@@ -14487,6 +14551,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1080965466
 MonoBehaviour:
@@ -16720,6 +16786,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1239503203
 MonoBehaviour:
@@ -17228,6 +17296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1277796939
 MonoBehaviour:
@@ -17491,6 +17561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1293710770
 MonoBehaviour:
@@ -17841,6 +17913,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1301377799
 MonoBehaviour:
@@ -19451,6 +19525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1399972104
 MonoBehaviour:
@@ -19714,6 +19790,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1406244100
 MonoBehaviour:
@@ -20005,7 +20083,7 @@ MonoBehaviour:
   fpsTargetDistance: 10
   enemylookDistance: 9
   atackDistance: 10
-  enemymovementSpeed: 10
+  enemymovementSpeed: 20
   damping: 4
   fpsTarget: {fileID: 516837478}
 --- !u!23 &1418207734
@@ -21651,6 +21729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1553473443
 MonoBehaviour:
@@ -23363,7 +23443,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!23 &1653581460
 MeshRenderer:
@@ -23402,6 +23482,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1653581462
 MonoBehaviour:
@@ -24241,6 +24323,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1737933993
 MonoBehaviour:
@@ -24574,6 +24658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1752512740
 MonoBehaviour:
@@ -27253,6 +27339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1931794149
 MonoBehaviour:
@@ -27706,6 +27794,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1959684458
 MonoBehaviour:
@@ -27769,6 +27859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &1963634009
 MonoBehaviour:
@@ -28940,6 +29032,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &2073743290
 MonoBehaviour:
@@ -29219,6 +29313,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &2081919344
 MonoBehaviour:
@@ -29332,6 +29428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f827f168784b4d4193157c348c8b93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 0}
+  gameOverText: {fileID: 0}
   playerHealth: 50
 --- !u!114 &2088515989
 MonoBehaviour:

@@ -48,6 +48,7 @@
      <Compile Include="Assets\Main_Menu Scripts\Menu_Script.cs" />
      <Compile Include="Assets\Scripts\DamagePlayer.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
+     <Compile Include="Assets\Scripts\Healthbar.cs" />
      <Compile Include="Assets\Scripts\HoldCharacter.cs" />
      <Compile Include="Assets\Scripts\MovingPlatform.cs" />
      <Compile Include="Assets\Scripts\WaterKill.cs" />
